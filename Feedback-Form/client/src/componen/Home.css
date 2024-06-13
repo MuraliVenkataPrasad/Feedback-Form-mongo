@@ -1,0 +1,122 @@
+/* Home.css */
+
+/* Background color for the entire Home component */
+.home-background {
+    background-color: #73b7f3; /* Light blue background color */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Content container styling */
+.content-container {
+    background-color: #73b7f3; /* White background for the content container */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/ /* Subtle shadow for a 3D effect */
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Feedback modal styling */
+.modal-content {
+    background-color: #e6f7ff; /* Light blue background for the modal */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.modal-body input {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer button {
+    border-radius: 5px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    color: #0f0202 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Button styling */
+.button-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.button-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.button-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Form control styling */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Add margin to the buttons inside the card */
+.card-body .button-primary,
+.card-body .button-secondary {
+    margin: 5px 0;
+}
